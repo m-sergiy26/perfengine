@@ -1,0 +1,13 @@
+AddDefaultCharset UTF-8
+Options -Indexes
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^([a-zA-Z0-9\-_]+)/([a-zA-Z0-9\-_]+)/([0-9A-zA-я\-_]*)/?$ /$1/$2?id=$3 [L,QSA]
+RewriteRule ^([a-zA-Z0-9\-_]+)/([a-zA-Z0-9\-_]+)/([a-zA-Z0-9\-_]+)/([0-9A-zA-я\-_]*)/?$ /$1/$2?$3_id=$4 [L,QSA]
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to login.php
+RewriteRule . index.php

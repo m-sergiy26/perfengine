@@ -1,0 +1,20 @@
+<?php
+return [
+    'Downloads' => 'Файлы',
+    'Folder is empty' => 'Папка пустая',
+    'Add file' => 'Добавить файл',
+    'Edit file' => 'Редактировать файл',
+    'Create folder' => 'Создать папку',
+    'Right to unloading' => 'Право выгрузки',
+    'All users' => 'Все пользователи',
+    'Only administration' => 'Только администация',
+    'Downloaded' => 'Загружено',
+    'Attach files' => 'Добавить файлы',
+    'Attach screenshot' => 'Добавить скриншот',
+    'Number of files' => 'Количество файлов',
+    'Last files' => 'Последние файлы',
+    'File names' => 'Именах файлов',
+    'File descriptions' => 'Описаниях файлов',
+    'No files' => 'Файлов нет',
+    'Do you really want to delete this file?' => 'Вы действительно желаете удалить этот файл?',
+];

@@ -1,0 +1,14 @@
+﻿../cache/
+../cache/compiled/
+../cache/templates/
+../cache/downloads_jad/
+../files/
+../files/articles/
+../files/avatars/
+../files/forum/
+../files/smiles/
+../files/downloads/
+../files/downloads_thumbs/
+../system/data/
+../system/locales/
+../tmp/
